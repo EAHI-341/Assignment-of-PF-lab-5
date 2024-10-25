@@ -1,1 +1,13 @@
-. 
+#include <iostream>
+using namespace std;
+int main() {
+ 
+ int n,sum;
+ cout<<"The value of n is:";
+ cin>>n;
+ for(int i=1; i<=n; i++){
+     sum=sum+n;
+ cout<<sum<<endl;
+}
+    return 0;
+}
